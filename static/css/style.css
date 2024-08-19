@@ -118,16 +118,19 @@ body, html{
 .image-wrapper {
     position: relative;
     overflow: hidden;
+    
 }
 
 .image-wrapper img {
     transition: transform 0.3s ease;
     width: 100%;
     height: auto;
+    border: none;
+    border-radius: 3%;
 }
 
 
-.title-overlay {
+.title-overlay h3{
     position: absolute;
     top: 0;
     left: 0;
@@ -141,6 +144,7 @@ body, html{
     background-color: rgba(0, 0, 0, 0.5);
     font-family: "Bungee", sans-serif;
     font-weight: 100;
+    
 }
 
 
@@ -148,12 +152,14 @@ body, html{
 .image-container:focus .image-wrapper img {
     transform: scale(1.07);
     
+    
 }
 
 .title-overlay:hover h3,
 .title-overlay:focus h3{
     opacity: 0;
     transition: opacity 0.3s ease;
+    
     
 }
 
