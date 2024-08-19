@@ -220,17 +220,17 @@ i{
     text-decoration: none;
 } 
 /*--------------------- cards ------------------------*/
-.card h1{
+.card h4{
     font-family: "Bungee", sans-serif;
     color: #8d840c;
     /* -webkit-text-stroke-width: 0.9px;
     -webkit-text-stroke-color:grey;  */
 }
-.title-sections h1{
+.card-section h2{
     font-family: "Bungee", sans-serif;
     color: #8d840c;
 }
 .card-section{
     padding-top: 10%;
-    margin-top: -10%; 
+    margin-top: 10%; 
 }

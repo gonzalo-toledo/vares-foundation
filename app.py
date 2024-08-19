@@ -6,7 +6,7 @@ app= Flask(__name__)
 @app.route('/')
 def intr():
     return render_template(
-        'intro_vares.html',
+        'intro_vares.html',             
     )
 
 @app.route('/index')
